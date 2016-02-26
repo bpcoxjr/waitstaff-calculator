@@ -2,8 +2,9 @@
 	height: 100%;
 }
 
-.header {
+.main-header {
 	text-align: center;
+	width: 100%;
 }
 
 .centered {
@@ -14,17 +15,22 @@
   	min-width: 200px;
 }
 
-#mealDetails {
-  	text-align: center;
-  	border: 1px solid red;
+.row {
+	display: flex;
 }
 
-#customerCharges {
-	border: 1px solid red;
+#mealDetails {
+  	text-align: center;
+}
+
+#totalCharges {
+	flex-grow: 1;
+	flex-direction: column;
 }
 
 #earningsInfo {
-	border: 1px solid red;
+	flex-grow: 1;
+	flex-direction: column;
 }
 
 #resetButton {

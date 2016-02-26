@@ -10,8 +10,8 @@
 </head>
 <body>
 	<div class="container">
-		<header>
-			  <h1 class="header">Waitstaff <img src="img/logo.png" alt=""> Calculator</h1>
+		<header class="main-header">
+			  <h1 class="header">Waitstaff <img src="img/logo.png"> Calculator</h1>
 		</header>
 		<hr>
 		        <section class="content">
@@ -37,10 +37,9 @@
                 </div>
 
                 <!-- summary -->
-                <div class="col-md-6" id="customerCharges">
-                    <div class="customerCharges">
+                <div class="col-md-6" id="chargesAndEarnings">
                         <!-- customer totals -->
-                        <div class="col-md-6">
+                        <div class="col-md-6" id="totalCharges">
                             <header>
                                 <h2 class="centered">Total Charges<br></h2>
                             </header>
@@ -85,7 +84,6 @@
                                 <input class="btn btn-primary btn-sm" id="resetButton" type="button" value="Reset" ng-click="reset()">
                             </div>
                         </div>
-                    </div>
                 </div>
             </div>
         </section>
