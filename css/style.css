@@ -8,6 +8,10 @@
 	width: 100%;
 }
 
+.mealHeader {
+	margin-top: 5em;
+}
+
 .centered {
 	text-align: center;
 }
@@ -23,20 +27,38 @@
 #mealDetails {
   	text-align: center;
   	border: 4px solid gray;
+  	border-radius: 10px;
+}
+
+#submitButton {
+	margin-top: 3em;
+	margin-bottom: 10em;
+}
+
+#clearButton {
+	margin-top: 3em;
+	margin-bottom: 10em;
 }
 
 #totalCharges {
 	flex-grow: 1;
 	flex-direction: column;
+	border: 4px solid gray;
+	border-radius: 10px;
 }
 
 #earningsInfo {
 	flex-grow: 1;
 	flex-direction: column;
+	border: 4px solid gray;
+	border-radius: 10px;
 }
 
 #resetButton {
 	text-align: center;
+	margin-top: 10em;
+	padding-top: 1em;
+	float: right;
 }
 
 .footer {
