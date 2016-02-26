@@ -40,6 +40,10 @@
 	margin-bottom: 10em;
 }
 
+#chargesAndEarnings {
+	display: flex;
+}
+
 #totalCharges {
 	flex-grow: 1;
 	flex-direction: column;
